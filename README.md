@@ -58,7 +58,7 @@ python -m venv .venv
 2) Install dependencies
 
 ```bash
-pip install -r P1/requirements.txt
+pip install -r requirements.txt
 ```
 
 3) Configure API Keys
@@ -93,7 +93,7 @@ Preferably, switch these to read from environment variables for safety.
 From the project root:
 
 ```bash
-streamlit run P1/app.py
+streamlit run app.py
 ```
 
 Streamlit will print a local URL (usually `http://localhost:8501`).
@@ -101,7 +101,7 @@ Streamlit will print a local URL (usually `http://localhost:8501`).
 ---
 
 ## Login & Users
-- On first run, the app will create `P1/users.json` if missing and add a default user:
+- On first run, the app will create `users.json` if missing and add a default user:
   - username: `admin`
   - password: `admin123`
 - You can edit users within the app workflow or by modifying `users.json` directly (passwords must be bcrypt-hashed; use the app helpers to avoid manual hashing).
@@ -142,5 +142,6 @@ Streamlit will print a local URL (usually `http://localhost:8501`).
 
 ## License
 This project is provided as-is. Add a license here if you plan to distribute.
+
 
 
