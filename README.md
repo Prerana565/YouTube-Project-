@@ -143,5 +143,8 @@ Streamlit will print a local URL (usually `http://localhost:8501`).
 ## License
 This project is provided as-is. Add a license here if you plan to distribute.
 
+---
+## Public URL 
+https://youtube-brain.streamlit.app/
 
 
